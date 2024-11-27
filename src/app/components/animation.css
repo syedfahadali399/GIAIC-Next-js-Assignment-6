@@ -1,0 +1,186 @@
+.animation-left {
+    animation: slideleft 4s 0.05s 1 ease-in;
+    animation-range: entry 0 cover 30%;
+    animation-timeline: view();
+    transition: 3s;
+}
+
+@keyframes slideleft {
+    from {
+        transform: translateX(-2000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
+.animation-right {
+    animation: slideright 4s 0.05s 1 ease-in;
+    animation-range: entry 0 cover 30%;
+    animation-timeline: view();
+    transition: 3s;
+}
+
+@keyframes slideright {
+    from {
+        transform: translateX(2000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.animation-up {
+    animation: up 1.5s 0.05s 1 ease-in forwards;
+    animation-range: entry 0 cover 50%;
+    animation-timeline: view();
+    transition: 3s;
+}
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(-120px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animation-down {
+    animation: down 1.5s 0.05s 1 ease-in forwards;
+    animation-range: entry 0 cover 50%;
+    animation-timeline: view();
+    transition: 3s;
+}
+
+@keyframes down {
+    from {
+        opacity: 0;
+        transform: translateY(120px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animation-popup {
+    animation: popup 1.5s 0.05s 1 ease-in forwards;
+    animation-range: entry 0 cover 50%;
+    animation-timeline: view();
+    transition: 3s;
+}
+
+@keyframes popup {
+    from {
+        opacity: 0%;
+        transform: scale(0);
+    }
+    to {
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+
+.animation-leftlandingpage {
+    animation: slideleftlandingpage 1s 0.05s 1 ease-in forwards;
+    transition: 3s;
+}
+
+@keyframes slideleftlandingpage {
+    from {
+        transform: translateX(-2000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.animation-upnavbar {
+    animation: upnavbar 1s 0.05s 1 ease-in forwards;
+    transition: 3s;
+}
+
+@keyframes upnavbar {
+    from {
+        opacity: 0;
+        transform: translateY(-120px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animation-downnavbar {
+    animation: downnavbar 1s 0.05s 1 ease-in forwards;
+    transition: 3s;
+}
+
+@keyframes downnavbar {
+    from {
+        opacity: 0;
+        transform: translateY(120px);
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+        transform: scale(1)
+    }
+}
+
+.animation-popuplandingpage {
+    animation: popuplandingpage 1s 0.05s 1 ease-in forwards;
+    transition: 3s;
+}
+
+@keyframes popuplandingpage {
+    from {
+        opacity: 0%;
+        transform: scale(0);
+    }
+    to {
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+
+.animation-upfooter {
+    animation: upfooter 1.5s 0.05s 1 ease-in forwards;
+    animation-range: entry 0 cover 20%;
+    animation-timeline: view();
+    transition: 3s;
+}
+
+@keyframes upfooter {
+    from {
+        opacity: 0;
+        transform: translateY(-120px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animation-downfooter {
+    animation: downfooter 1.5s 0.05s 1 ease-in forwards;
+    animation-range: entry 0 cover 10%;
+    animation-timeline: view();
+    transition: 3s;
+}
+
+@keyframes downfooter {
+    from {
+        opacity: 0;
+        transform: translateY(120px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
